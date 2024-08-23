@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="36.427" viewBox="0 0 67 36.427">
+  <g id="local_shipping_black_48dp_1_" data-name="local_shipping_black_48dp (1)" transform="translate(-8 -26.252)">
+    <path id="Path_65" data-name="Path 65" d="M3,28.406H4.942a7.38,7.38,0,0,1,11.054,0H32.875V6H3Z" transform="translate(24.746 24.552)" fill="#bfbebe" opacity="0.3"/>
+    <path id="Path_66" data-name="Path 66" d="M37.314,13.107V4H5.539A4.56,4.56,0,0,0,1,8.553V33.6H5.539a6.809,6.809,0,1,0,13.618,0H32.775a6.809,6.809,0,1,0,13.618,0h4.539V22.213l-6.809-9.107ZM12.348,35.874a2.277,2.277,0,1,1,2.27-2.277A2.28,2.28,0,0,1,12.348,35.874Zm20.427-6.83H17.387a6.714,6.714,0,0,0-10.077,0H5.539V8.553H32.775Zm6.809,6.83a2.277,2.277,0,1,1,2.27-2.277A2.28,2.28,0,0,1,39.584,35.874Zm-2.27-13.66V16.522h5.674l4.448,5.692Z" transform="translate(24.068 22.252)" fill="#707070"/>
+    <line id="Line_27" data-name="Line 27" x1="6.61" transform="translate(15.602 42.753)" fill="none" stroke="#707070" stroke-width="3"/>
+    <line id="Line_28" data-name="Line 28" x1="9.976" transform="translate(12.236 36.752)" fill="none" stroke="#707070" stroke-width="3"/>
+    <line id="Line_29" data-name="Line 29" x1="14.212" transform="translate(8 30.752)" fill="none" stroke="#707070" stroke-width="3"/>
+  </g>
+</svg>

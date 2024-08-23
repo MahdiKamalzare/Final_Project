@@ -1,0 +1,276 @@
+@use "layout";
+@use "fonts";
+@use "swiper";
+
+body {
+    font-family: estedad;
+}
+
+// منو موبایل
+.mobile-menu{
+    .navbar{
+        .navbar-toggler{
+            box-shadow: none;
+        }
+    }
+}
+
+header.head {
+
+    ul {
+        list-style: none;
+
+        li {
+            padding-left: 0.5rem;
+        }
+    }
+
+    form {
+        outline: none;
+        border: none;
+
+        .input-group {
+            position: relative;
+            width: 45rem;
+
+            /* تنظیم عرض دلخواه */
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            pointer-events: none;
+            /* غیر فعال کردن کلیک بر روی آیکون */
+        }
+
+        input[type="search"] {
+            width: 100%;
+            padding-left: 35px;
+            /* فضای اضافی برای آیکون */
+            padding-right: 10px;
+            height: 35px;
+            /* تنظیم ارتفاع دلخواه */
+            outline: none;
+            border-radius: 5px;
+            background-color: #81818128;
+        }
+
+        input[type="search"]::placeholder {
+            color: #aaa;
+
+        }
+
+    }
+}
+
+header.header-main {
+
+    nav {
+        padding-right: 16rem;
+
+        ul {
+            list-style: none;
+
+
+            li {
+                padding: 1rem;
+
+                a {
+                    color: black;
+                }
+
+            }
+
+
+        }
+
+    }
+   
+}
+
+.x {
+    border-right: 2px solid gray;
+    padding: 1rem;
+}
+
+.y {
+
+    padding: 1rem;
+}
+
+.bg {
+    background-color: #99999925;
+}
+
+.bg-x {
+    background-color: #99999953;
+}
+
+.line {
+    width: 80rem;
+    height: 0.005rem;
+    background-color: black;
+}
+
+footer {
+    ul {
+        list-style: none;
+
+        li {
+            padding-top: 1rem;
+
+            a {
+                color: black;
+                font-size: 0.9rem;
+
+            }
+        }
+
+        a:hover {
+            color: red;
+            transition: 1s;
+
+
+        }
+
+    }
+
+    .card {
+        a:hover {
+            color: red !important;
+            transition: 1s;
+        }
+
+    }
+}
+
+
+.mob {
+    
+    ul {
+        list-style: none;
+    }
+
+    form {
+        outline: none;
+        border: none;
+
+        .input-group {
+            position: relative;
+            width: 20rem;
+
+            /* تنظیم عرض دلخواه */
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            pointer-events: none;
+            /* غیر فعال کردن کلیک بر روی آیکون */
+        }
+
+        input[type="search"] {
+            width: 100%;
+            padding-left: 35px;
+            /* فضای اضافی برای آیکون */
+            padding-right: 10px;
+            height: 35px;
+            /* تنظیم ارتفاع دلخواه */
+            outline: none;
+            border-radius: 5px;
+            background-color: #81818128;
+        }
+
+        input[type="search"]::placeholder {
+            color: #aaa;
+
+        }
+
+    }
+
+
+    .small-navbar {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.75rem;
+        /* کاهش اندازه فونت کلی */
+    }
+
+    .small-brand {
+        font-size: 0.85rem;
+    }
+
+    .small-toggler {
+        padding: 0.25rem;
+        font-size: 0.75rem;
+    }
+
+    .small-offcanvas {
+        width: 10px;
+        /* کاهش عرض آف‌کانواس */
+    }
+
+    .small-header {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .small-title {
+        font-size: 0.85rem;
+    }
+
+    .small-close {
+        font-size: 0.75rem;
+    }
+
+    .small-body {
+        padding: 0.5rem;
+    }
+
+    .small-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .small-dropdown .dropdown-item {
+        font-size: 0.75rem;
+    }
+
+    .small-form {
+        padding: 0.3rem;
+    }
+
+    .small-input {
+        height: 1.5rem;
+        font-size: 0.75rem;
+    }
+
+    .small-btn {
+        padding: 0.2rem 0.4rem;
+        font-size: 0.75rem;
+    }
+
+}
+
+.mob {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.offcanvas {
+    max-width: 100%;
+    width: 250px; /* عرض مناسب برای آف‌کانواس */
+}
